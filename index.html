@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhisprWall - Share Your Story</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">WhisprWall</span>
+            </div>
+            <span class="brand-tagline">Share Your Story</span>
+        </div>
+        <div class="nav-links">
+            <button class="nav-link active" onclick="showTab('all')">◈ Explore</button>
+            <button class="nav-link" onclick="showTab('love')">❥ Love</button>
+            <button class="nav-link" onclick="showTab('regrets')">❦ Reflections</button>
+            <button class="nav-link" onclick="showTab('funny')">❧ Joy</button>
+            <button class="nav-link" onclick="showTab('secrets')">❈ Secrets</button>
+            <button class="nav-link" onclick="showTab('dreams')">✧ Dreams</button>
+        </div>
+        <button class="create-btn" onclick="openCreateModal()">
+            <span class="btn-icon">✧</span>
+            <span class="btn-text">New Whisper</span>
+        </button>
+    </nav>
+
+    <div class="search-container">
+        <div class="search-bar">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" placeholder="Search whispers..." id="searchInput">
+            <button class="random-btn" onclick="showRandomConfession()">
+                <span class="btn-icon">❈</span>
+                <span class="btn-text">Discover</span>
+            </button>
+        </div>
+        <div class="search-tags">
+            <span class="tag">Popular</span>
+            <span class="tag">Featured</span>
+            <span class="tag">Recent</span>
+            <span class="tag">Trending</span>
+        </div>
+    </div>
+
+    <main class="confessions-grid" id="confessionsGrid">
+        <!-- Confessions will be dynamically added here -->
+    </main>
+
+    <!-- Create Confession Modal -->
+    <div class="modal" id="createModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><span class="modal-icon">✧</span> Share Your Whisper</h2>
+                <span class="close-btn" onclick="closeCreateModal()">×</span>
+            </div>
+            <form id="confessionForm" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label>Your Story</label>
+                    <textarea placeholder="What would you like to share?" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Category</label>
+                    <select required>
+                        <option value="">Choose a category...</option>
+                        <option value="love">❥ Love</option>
+                        <option value="regrets">❦ Reflections</option>
+                        <option value="funny">❧ Joy</option>
+                        <option value="secrets">❈ Secrets</option>
+                        <option value="dreams">✧ Dreams</option>
+                    </select>
+                </div>
+                <div class="emotions-container">
+                    <label>How are you feeling? <span class="subtitle">(Select up to 3)</span></label>
+                    <div class="emotion-chips">
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">✧ Peaceful</button>
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">❥ Loved</button>
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">❦ Reflective</button>
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">❧ Joyful</button>
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">❈ Inspired</button>
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">✤ Grateful</button>
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">❋ Hopeful</button>
+                        <button type="button" class="emotion-chip" onclick="toggleEmotion(this)" data-selected="false">✹ Blessed</button>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span class="btn-icon">✧</span>
+                    <span class="btn-text">Share Your Story</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
