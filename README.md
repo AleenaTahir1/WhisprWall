@@ -1,25 +1,23 @@
-# 🌟 WhisprWall - Share Your Story
+# WhisprWall - Share Your Story
 
-<div align="center">
-  <p><em>A beautiful space for anonymous confessions and stories</em></p>
-</div>
+A beautiful space for anonymous confessions and stories
 
-## ✨ Features
+## Features
 
 - **Anonymous Sharing**: Share your thoughts without creating an account
 - **Emotional Categories**: Express yourself through different categories:
-  - ◈ Explore - Discover all stories
-  - ❥ Love - Share your heart
-  - ❦ Reflections - Look back and learn
-  - ❧ Joy - Celebrate happiness
-  - ❈ Secrets - Share what's hidden
-  - ✧ Dreams - Envision the future
+  - Explore - Discover all stories
+  - Love - Share your heart
+  - Reflections - Look back and learn
+  - Joy - Celebrate happiness
+  - Secrets - Share what's hidden
+  - Dreams - Envision the future
 
 - **Interactive Elements**:
-  - 💖 Like stories that resonate
-  - 💭 Comment and connect
-  - 🔄 Random story discovery
-  - 🏷️ Emotion tags selection
+  - Like stories that resonate
+  - Comment and connect
+  - Random story discovery
+  - Emotion tags selection
 
 - **Modern UI/UX**:
   - Beautiful gradients and animations
@@ -27,11 +25,11 @@
   - Smooth transitions and effects
   - Custom scrollbars and hover states
 
-## 🚀 Live Demo
+## Live Demo
 
 Check out the live version here: [WhisprWall Live](https://aleenatahir1.github.io/WhisprWall)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (with modern features like gradients, animations)
@@ -39,7 +37,7 @@ Check out the live version here: [WhisprWall Live](https://aleenatahir1.github.i
 - Font Awesome Icons
 - Google Fonts (Montserrat & Playfair Display)
 
-## 🎯 Getting Started
+## Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -52,14 +50,14 @@ Check out the live version here: [WhisprWall Live](https://aleenatahir1.github.i
    ```
 
 3. **Open in browser**
-   - Open `website/index.html` in your preferred browser
+   - Open `index.html` in your preferred browser
    - Or use a local server:
      ```bash
-     python -m http.server 8000 --directory website
+     python -m http.server 8000
      ```
    Then visit `http://localhost:8000`
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -69,11 +67,11 @@ Contributions are welcome! Here's how you can help:
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+## Contact
 
 Aleena Tahir - [@AleenaTahir1](https://github.com/AleenaTahir1)
 
@@ -81,6 +79,4 @@ Project Link: [https://github.com/AleenaTahir1/WhisprWall](https://github.com/Al
 
 ---
 
-<div align="center">
-  Made with ❤️ by <a href="https://github.com/AleenaTahir1">Aleena Tahir</a>
-</div>
+Made with  by [Aleena Tahir](https://github.com/AleenaTahir1)
