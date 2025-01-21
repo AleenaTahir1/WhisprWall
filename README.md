@@ -1,7 +1,6 @@
 # 🌟 WhisprWall - Share Your Story
 
 <div align="center">
-  <img src="website/assets/logo.png" alt="WhisprWall Logo" width="200"/>
   <p><em>A beautiful space for anonymous confessions and stories</em></p>
 </div>
 
@@ -40,18 +39,6 @@ Check out the live version here: [WhisprWall Live](https://aleenatahir1.github.i
 - Font Awesome Icons
 - Google Fonts (Montserrat & Playfair Display)
 
-## 🌈 Color Palette
-
-```css
-:root {
-    --primary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
-    --secondary-gradient: linear-gradient(135deg, #14b8a6 0%, #0ea5e9 100%);
-    --background-color: #f8fafc;
-    --text-color: #1e293b;
-    --text-secondary: #64748b;
-}
-```
-
 ## 🎯 Getting Started
 
 1. **Clone the repository**
@@ -72,13 +59,6 @@ Check out the live version here: [WhisprWall Live](https://aleenatahir1.github.i
      ```
    Then visit `http://localhost:8000`
 
-## 📱 Screenshots
-
-<div align="center">
-  <img src="website/assets/screenshot1.png" alt="Home Screen" width="45%"/>
-  <img src="website/assets/screenshot2.png" alt="New Whisper" width="45%"/>
-</div>
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
@@ -92,12 +72,6 @@ Contributions are welcome! Here's how you can help:
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Icons by [Font Awesome](https://fontawesome.com)
-- Fonts by [Google Fonts](https://fonts.google.com)
-- Inspiration from various confession and story-sharing platforms
 
 ## 📞 Contact
 
